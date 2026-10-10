@@ -1,0 +1,67 @@
+{
+  "_comment": "Client-approved resolutions for exceptions raised by the first cleansing run. Signed off by Ramesh (Stores) and Priya (Purchase) on 2026-10-05. Every entry here corresponds to an exception ID in the reconciliation report.",
+
+  "item_aliases": {
+    "2306 motor 2450kv": "MTR-2306",
+    "motor 2306": "MTR-2306",
+    "pdb 200": "PDB-200"
+  },
+  "item_code_assignments": {
+    "silicone wire 14awg": "WIRE-14AWG"
+  },
+  "item_group_overrides": {
+    "HW-STANDOFF": "Components"
+  },
+  "item_price_overrides": {
+    "CAM-MAP": 38000
+  },
+  "excluded_stock_codes": {
+    "MTR-2207": "Motor from a discontinued prototype; client confirmed write-off, not migrated."
+  },
+  "negative_stock_lines": "reject",
+  "_negative_stock_lines_reason": "Stock Count sheet must contain physical counts only; the -2 line was a pre-count adjustment already reflected in the count.",
+
+  "supplier_aliases": {
+    "aeroparts imports": "SUP-AERO"
+  },
+  "supplier_groups": {
+    "SUP-AERO": "Import Distributor",
+    "SUP-VOLT": "Domestic Manufacturer",
+    "SUP-CARB": "Domestic Manufacturer",
+    "SUP-FAST": "Domestic Manufacturer",
+    "SUP-OPTI": "Domestic Manufacturer",
+    "SUP-WIRE": "Domestic Manufacturer"
+  },
+  "invalid_gstin_action": "load_without_tax_id",
+  "_invalid_gstin_reason": "Purchase team to obtain corrected GSTIN from supplier; record loads without it so POs are not blocked.",
+
+  "supplier_part_numbers": {
+    "_comment": "AeroParts' own catalogue numbers, needed by the price-sync integration.",
+    "MTR-2306": "AP-BLM-2306-2450",
+    "MTR-3508": "AP-BLM-3508-0700",
+    "ESC-30A": "AP-ESC-B32-30",
+    "ESC-40A": "AP-ESC-B32-40",
+    "FC-F7": "AP-FC-F722",
+    "FC-H7": "AP-FC-H743",
+    "GPS-M10": "AP-GNSS-M10",
+    "RX-ELRS": "AP-RX-ELRS24"
+  },
+
+  "customer_aliases": {
+    "sungrid solar parks pvt ltd": "CUST-SUNG"
+  },
+  "customer_state_fixes": {
+    "CUST-TERR": "Maharashtra"
+  },
+  "customer_name_fixes": {
+    "_comment": "Added after client review (ISS-08): auto title-casing produced 'Greenacre'; registered name is 'GreenAcre'.",
+    "CUST-GREE": "GreenAcre Agritech"
+  },
+
+  "warehouse_map": {
+    "store": "Stores - SFD",
+    "stores": "Stores - SFD",
+    "main store": "Stores - SFD",
+    "fg shelf": "Finished Goods - SFD"
+  }
+}

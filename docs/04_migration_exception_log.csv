@@ -1,0 +1,82 @@
+id,sheet,row,field,value,issue,resolution
+SUP-001,Suppliers,2,Phone,+91 98480 12345,Non-standard phone format,auto-fixed: +91-9848012345
+SUP-002,Suppliers,3,Phone,09849012346,Non-standard phone format,auto-fixed: +91-9849012346
+SUP-003,Suppliers,3,Lead Time,21 days,Lead time stored as text,auto-fixed: 21 days
+SUP-004,Suppliers,4,Phone,9849012347,Non-standard phone format,auto-fixed: +91-9849012347
+SUP-005,Suppliers,5,GSTIN,36AABFS1111N1Z0,GSTIN fails checksum,"client decision: loaded without GSTIN, purchase team to obtain correct one"
+SUP-006,Suppliers,5,Lead Time,3 days,Lead time stored as text,auto-fixed: 3 days
+SUP-007,Suppliers,6,Phone,98490 12349,Non-standard phone format,auto-fixed: +91-9849012349
+SUP-008,Suppliers,6,Email,,Missing email,accepted: loads without email; contact to be completed by purchase
+SUP-009,Suppliers,7,Phone,040-27654321,Non-standard phone format,auto-fixed: +91-4027654321
+SUP-010,Suppliers,7,Lead Time,5 days,Lead time stored as text,auto-fixed: 5 days
+SUP-011,Suppliers,8,Supplier ID,Aeroparts Imports,Duplicate of SUP-AERO,excluded: merged into SUP-AERO (client decision)
+ITM-001,Items,2,Last Purchase Price,"₹1,450",Price not stored as a plain number,auto-fixed: 1450
+ITM-002,Items,3,Item Code,2306 motor 2450KV,Missing code; duplicate of MTR-2306,excluded: merged into MTR-2306 (client decision)
+ITM-003,Items,4,Unit,nos,Non-standard UOM,auto-fixed: Nos
+ITM-004,Items,4,Last Purchase Price,Rs. 3200,Price not stored as a plain number,auto-fixed: 3200
+ITM-005,Items,5,Item Code,esc-30a,Code not in standard upper case,auto-fixed: ESC-30A
+ITM-006,Items,5,Unit,pcs,Non-standard UOM,auto-fixed: Nos
+ITM-007,Items,5,Last Purchase Price,950.00,Price not stored as a plain number,auto-fixed: 950
+ITM-008,Items,6,Unit,PCS,Non-standard UOM,auto-fixed: Nos
+ITM-009,Items,6,Last Purchase Price,"₹1,350",Price not stored as a plain number,auto-fixed: 1350
+ITM-010,Items,7,Item Name,' Flight Controller F7 ',Leading/trailing/double spaces,auto-fixed: trimmed
+ITM-011,Items,7,Unit,unit,Non-standard UOM,auto-fixed: Nos
+ITM-012,Items,7,Last Purchase Price,Rs. 6800,Price not stored as a plain number,auto-fixed: 6800
+ITM-013,Items,8,Unit,Pcs,Non-standard UOM,auto-fixed: Nos
+ITM-014,Items,8,Last Purchase Price,11500.00,Price not stored as a plain number,auto-fixed: 11500
+ITM-015,Items,9,Last Purchase Price,"₹2,100",Price not stored as a plain number,auto-fixed: 2100
+ITM-016,Items,10,Unit,nos,Non-standard UOM,auto-fixed: Nos
+ITM-017,Items,10,Last Purchase Price,Rs. 1200,Price not stored as a plain number,auto-fixed: 1200
+ITM-018,Items,11,Unit,pcs,Non-standard UOM,auto-fixed: Nos
+ITM-019,Items,11,Last Purchase Price,650.00,Price not stored as a plain number,auto-fixed: 650
+ITM-020,Items,12,Unit,PCS,Non-standard UOM,auto-fixed: Nos
+ITM-021,Items,12,Last Purchase Price,"₹1,100",Price not stored as a plain number,auto-fixed: 1100
+ITM-022,Items,13,Item Code,Silicone Wire 14AWG,Missing item code,client decision: code WIRE-14AWG assigned
+ITM-023,Items,13,Unit,mtr,Non-standard UOM,auto-fixed: Meter
+ITM-024,Items,13,Last Purchase Price,Rs. 45,Price not stored as a plain number,auto-fixed: 45
+ITM-025,Items,14,Unit,Pairs,Non-standard UOM,auto-fixed: Pair
+ITM-026,Items,14,Last Purchase Price,120.00,Price not stored as a plain number,auto-fixed: 120
+ITM-027,Items,15,Unit,pair,Non-standard UOM,auto-fixed: Pair
+ITM-028,Items,15,Last Purchase Price,₹380,Price not stored as a plain number,auto-fixed: 380
+ITM-029,Items,16,Unit,nos,Non-standard UOM,auto-fixed: Nos
+ITM-030,Items,16,Last Purchase Price,Rs. 420,Price not stored as a plain number,auto-fixed: 420
+ITM-031,Items,17,Unit,pcs,Non-standard UOM,auto-fixed: Nos
+ITM-032,Items,17,Last Purchase Price,780.00,Price not stored as a plain number,auto-fixed: 780
+ITM-033,Items,18,Unit,PCS,Non-standard UOM,auto-fixed: Nos
+ITM-034,Items,18,Last Purchase Price,₹690,Price not stored as a plain number,auto-fixed: 690
+ITM-035,Items,19,Unit,unit,Non-standard UOM,auto-fixed: Nos
+ITM-036,Items,19,Last Purchase Price,Rs. 1450,Price not stored as a plain number,auto-fixed: 1450
+ITM-037,Items,20,Category,,Missing item group,client decision: Components
+ITM-038,Items,20,Unit,Pcs,Non-standard UOM,auto-fixed: Nos
+ITM-039,Items,20,Last Purchase Price,12.00,Price not stored as a plain number,auto-fixed: 12
+ITM-040,Items,21,Last Purchase Price,₹2,Price not stored as a plain number,auto-fixed: 2
+ITM-041,Items,22,Unit,nos,Non-standard UOM,auto-fixed: Nos
+ITM-042,Items,22,Last Purchase Price,Rs. 2900,Price not stored as a plain number,auto-fixed: 2900
+ITM-043,Items,23,Unit,pcs,Non-standard UOM,auto-fixed: Nos
+ITM-044,Items,23,Last Purchase Price,9800.00,Price not stored as a plain number,auto-fixed: 9800
+ITM-045,Items,24,Unit,PCS,Non-standard UOM,auto-fixed: Nos
+ITM-046,Items,24,Last Purchase Price,"₹14,500",Price not stored as a plain number,auto-fixed: 14500
+ITM-047,Items,25,Unit,unit,Non-standard UOM,auto-fixed: Nos
+ITM-048,Items,25,Last Purchase Price,approx 38k,Unparseable price,"client decision: ₹38,000"
+ITM-049,Items,26,Unit,Pcs,Non-standard UOM,auto-fixed: Nos
+ITM-050,Items,28,Unit,nos,Non-standard UOM,auto-fixed: Nos
+ITM-051,Items,29,Unit,pcs,Non-standard UOM,auto-fixed: Nos
+ITM-052,Items,30,Unit,PCS,Non-standard UOM,auto-fixed: Nos
+ITM-053,Items,31,Unit,unit,Non-standard UOM,auto-fixed: Nos
+ITM-054,Items,32,Status,FC-F4,Obsolete item,excluded: not migrated
+ITM-055,Items,33,(row),RX-ELRS,Exact duplicate row,excluded: duplicate row removed
+CUS-001,Customers,4,State,,Missing state (needed for GST place of supply),client decision: Maharashtra
+CUS-002,Customers,7,Customer,GREENACRE AGRITECH,Name in all caps,client decision: GreenAcre Agritech
+CUS-003,Customers,9,Cust Code,Sungrid Solar Parks Pvt Ltd,Missing customer code; same GSTIN as CUST-SUNG,excluded: merged into CUST-SUNG (client decision)
+BOM-001,Parts Lists,2,Part,Motor 2306,"Part referenced by name, not code",client decision: MTR-2306
+BOM-002,Parts Lists,5,Qty Per,1 m,Unit typed into quantity,auto-fixed: 1
+STK-001,Stock Count,2,Qty,52 pcs,Unit typed into quantity,auto-fixed: 52
+STK-002,Stock Count,6,Qty,12 pcs,Unit typed into quantity,auto-fixed: 12
+STK-003,Stock Count,10,Qty,15 pcs,Unit typed into quantity,auto-fixed: 15
+STK-004,Stock Count,11,Item,pdb 200,Non-standard item code,client decision: PDB-200
+STK-005,Stock Count,14,Qty,21 pcs,Unit typed into quantity,auto-fixed: 21
+STK-006,Stock Count,18,Qty,10 pcs,Unit typed into quantity,auto-fixed: 10
+STK-007,Stock Count,22,Qty,4 pcs,Unit typed into quantity,auto-fixed: 4
+STK-008,Stock Count,26,Item,FC-F4,Stock of obsolete item,excluded: not migrated
+STK-009,Stock Count,27,Item,MTR-2207,Item not in item master,"excluded: Motor from a discontinued prototype; client confirmed write-off, not migrated."
+STK-010,Stock Count,28,Qty,-2,Negative quantity on a count sheet,"client decision: line rejected, physical count stands"
